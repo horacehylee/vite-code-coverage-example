@@ -1,0 +1,25 @@
+{
+  "name": "vite-code-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engine": "node >=22.0.0",
+  "scripts": {
+    "test": "vitest run --coverage --reporter verbose",
+    "test:dev": "vitest watch --reporter verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.2",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.4",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
